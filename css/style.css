@@ -1,0 +1,83 @@
+body{background-color: #fff88a;}
+ 
+h1 {color:#84875d;} 
+
+#wrapper { 
+
+background-color:blue;
+
+width:70%; 
+
+margin:auto; 
+
+} 
+
+ 
+
+nav ul { 
+
+  list-style-type: none; 
+
+  margin: 0; 
+
+  padding: 0; 
+
+  overflow: hidden; 
+
+  background-color: #28e2ff; 
+
+} 
+
+ 
+
+nav ul li { 
+
+  float: left; 
+
+} 
+
+ 
+
+nav ul li a { 
+
+  display: block; 
+
+  color: white; 
+
+  text-align: center; 
+
+  padding: 30px 36px; 
+
+  text-decoration: none;
+
+} 
+
+ 
+
+/* Change the link color to #111 (black) on hover */ 
+
+nav ul li a:hover { 
+
+  background-color: #111; 
+
+} 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1frpx;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Box1 Box-2"
+    "Box-3 Box-4";
+}
+
+.Box1 { grid-area: Box1; }
+
+.Box-2 { grid-area: Box-2; }
+
+.Box-3 { grid-area: Box-3; }
+
+.Box-4 { grid-area: Box-4; }
+
+footer { height:50px; background-color:   #239dfc;}
